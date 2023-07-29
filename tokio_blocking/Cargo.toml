@@ -1,0 +1,10 @@
+[package]
+name = "tokio_blocking"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.28"
+tokio = { version = "1.29.1", features = ["full"] }

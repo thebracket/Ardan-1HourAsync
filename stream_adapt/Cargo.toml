@@ -1,0 +1,12 @@
+[package]
+name = "stream_adapt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pin-project-lite = "0.2.10"
+tokio = { version = "1.29.1", features = ["full"] }
+tokio-stream = { version = "0.1.14", features = ["full"] }
+tokio-util = { version = "0.7.8", features = ["io"] }

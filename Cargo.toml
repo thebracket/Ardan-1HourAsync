@@ -1,0 +1,29 @@
+[package]
+name = "Ardan_1HourAsync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "futures_block_on",
+    "tokio_block_on",
+    "hello_tokio",
+    "tokio_join",
+    "tokio_spawn",
+    "tokio_yield",
+    "tokio_select",
+    "tokio_blocking",
+    "tokio_spawn_blocking",
+    "tokio_channels",
+    "tokio_multi_channels",
+    "thread_to_tokio",
+    "tokio_streams",
+    "tokio_stream_generator",
+    "tokio_stream_file",
+    "tracing_log",
+    "tracing_json",
+    "tracing_spans",
+    "stream_adapt",
+]
