@@ -4,6 +4,9 @@
 
 This is the code accompanying the 1 Hour Dive into Async live-stream.
 
+* The slides are [here](./1-Hour-Async-Deep-Dive.pdf)
+* You can watch the recorded event [on YouTube](https://www.youtube.com/watch?v=0HwrZp9CBD4)
+
 ## Included Projects
 
 1. [Block On with Futures](./futures_block_on/). Using `block_on` to start an async runtime.
